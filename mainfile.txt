@@ -4,5 +4,27 @@ aset.add("Ananya")
 print(aset)
 del aset
 
-{'zain', 'Bebo', 'Zaid', 'Vardan', 'ameen'}
+(ANS){'zain', 'Bebo', 'Zaid', 'Vardan', 'ameen'}
 {'zain', 'Ananya', 'Bebo', 'Zaid', 'Vardan', 'ameen'}
+
+aList=["apple", "cat",25, False]
+print(aList[3])
+aList.append("cow")
+print(aList)
+bList=["tiger","zebra","ant","truck",8.2]
+bList.remove("zebra")
+print(aList+bList)
+
+(ANS)False
+['apple', 'cat', 25, False, 'cow']
+['apple', 'cat', 25, False, 'cow', 'tiger', 'ant', 'truck', 8.2]
+
+myset={"ameen","imsil",3456}
+print(myset)
+myset.add("data")
+print(myset)
+del myset
+print (myset)
+
+(ANS){3456, 'imsil', 'ameen'}
+{3456, 'imsil', 'data', 'ameen'}
