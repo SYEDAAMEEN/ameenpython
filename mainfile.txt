@@ -1,0 +1,8 @@
+aset={"ameen","zain","Vardan","Bebo","Zaid"}
+print(aset)
+aset.add("Ananya")
+print(aset)
+del aset
+
+{'zain', 'Bebo', 'Zaid', 'Vardan', 'ameen'}
+{'zain', 'Ananya', 'Bebo', 'Zaid', 'Vardan', 'ameen'}
